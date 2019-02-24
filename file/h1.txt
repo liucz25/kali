@@ -1,0 +1,29 @@
+    1  ifconfig
+    2  iwconfig
+    3  aircrack-ng 
+    4  aircrack-ng 0
+    5  aircrack-ng 
+    6  airmon-ng
+    7  wireshark 
+    8  iwconfig
+    9  airmon-ng chack
+   10  airmon-ng check
+   11  kill 487
+   12  kill 571
+   13  airmon-ng check
+   14  airmon-ng check kill
+   15  airmon-ng check 
+   16  airmon-ng start wlan0
+   17  ifconfig
+   18  wireshark 
+   19  iwlist wlan0mon 
+   20  iwlist wlan0mon channel 
+   21  aireplay-ng 
+   22  aireplay-ng -9
+   23  aireplay-ng -9 wlan0mon
+   24  airodump-ng wlan0-mon
+   25  airodump-ng wlan0mon
+   26  airodump-ng wlan0mon --bssid 34:96:72:AE:CD:AD
+   27  airodump-ng wlan0mon --bssid 34:96:72:AE:CD:AD -w cap_test
+   28  airodump-ng wlan0mon -c 1 --bssid 34:96:72:AE:CD:AD -w cap_test
+   29  history > h1.txt

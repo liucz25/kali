@@ -1,0 +1,2 @@
+20:04:50  Waiting for beacon frame (BSSID: 34:96:72:AE:CD:AD) on channel 11
+20:04:52  wlan0mon is on channel 11, but the AP uses channel 1
